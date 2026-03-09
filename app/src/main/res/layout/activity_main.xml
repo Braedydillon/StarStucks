@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/StarSucks"
+            android:layout_width="182dp"
+            android:layout_height="170dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="StarSucks Logo"
+            android:src="@drawable/starsuckslogo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#002D04"
+            android:text="StarSucks"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/Coffee1"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Coffee Drink"
+            android:src="@drawable/sb1" />
+
+    </LinearLayout>
+</ScrollView>
